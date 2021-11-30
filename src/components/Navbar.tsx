@@ -24,6 +24,9 @@ const Navbar: React.FC = () => {
           <Button color='inherit'>
             CONTACT
           </Button>
+          <Button color='inherit'>
+            Member
+          </Button>
         </Toolbar>
       </AppBar>
     </>
