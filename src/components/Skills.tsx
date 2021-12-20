@@ -30,7 +30,7 @@ const Skills: React.FC = () => {
                 言語
               </Typography>
               <Typography color="textSecondary">
-                Ruby / PHP / JavaScript / TypeScript
+                Go  / PHP / JavaScript / TypeScript
               </Typography>
             </CardContent>
           </Card>
@@ -42,7 +42,7 @@ const Skills: React.FC = () => {
                 フレームワーク
               </Typography>
               <Typography color="textSecondary">
-                Ruby on Rails / Sinatra / Laravel / React
+                  / Laravel / React /Zin / Vue
               </Typography>
             </CardContent>
           </Card>
@@ -66,7 +66,7 @@ const Skills: React.FC = () => {
                 AWS
               </Typography>
               <Typography color="textSecondary">
-                EC2 / ECS / ECR / Lambda / SQS / SNS / Elastic Beanstalk / S3 / Cloud9 / CloudWatch / CloudFormation / RDS / Route53
+                EC2 
               </Typography>
             </CardContent>
           </Card>
