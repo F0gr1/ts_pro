@@ -35,13 +35,13 @@ const Works: React.FC = () => {
         <Box display='flex' justifyContent='center' p={1} >
           <List className={classes.root}>
             <ListItem>
-              <ListItemLink href='#'>
+              <ListItemLink href='https://tasks.atj-tech.work/login'>
                 <ListItemAvatar>
                   <Avatar>
                     <FolderIcon />
                   </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary='Work1' secondary='Work1です。' />
+                <ListItemText primary='タスク管理アプリ' secondary='タスク管理' />
               </ListItemLink>
             </ListItem>
             <ListItem>
