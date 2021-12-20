@@ -42,7 +42,7 @@ const Contact: React.FC = () => {
           </Typography>
         </Box>
         <Box className={classes.root} display='flex' justifyContent='center' p={1}>
-          <Link href='#' color='inherit'>
+          <Link href='' color='inherit'>
             <Avatar className={classes.green}>
               <MailIcon />
             </Avatar>
@@ -52,7 +52,7 @@ const Contact: React.FC = () => {
               <TwitterIcon />
             </Avatar>
           </Link>
-          <Link href='#' color='inherit'>
+          <Link href='https://github.com/F0gr1' color='inherit'>
             <Avatar className={classes.purple}>
               <GitHubIcon />
             </Avatar>
