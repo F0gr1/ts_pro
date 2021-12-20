@@ -13,7 +13,7 @@ const About: React.FC = () => {
         <Box display='flex' justifyContent='center' p={1}>
           <Typography variant='body1' align='left'>
             私の名前は石神勇貴です。<br />
-            好きな言語・フレームワークはTypeScriptとReactです。
+            好きな言語・フレームワークはLaravelです。
           </Typography>
         </Box>
       </Box>
