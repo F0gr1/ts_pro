@@ -1,4 +1,6 @@
 import React from 'react'
+// 追記
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Button from '@material-ui/core/Button'
@@ -12,21 +14,38 @@ const Navbar: React.FC = () => {
         style={{ alignItems: 'center'}}
       >
         <Toolbar>
-          <Button>
-            ABOUT
-          </Button>
-          <Button color='inherit'>
-            SKILLS
-          </Button>
-          <Button color='inherit'>
-            Works
-          </Button>
-          <Button color='inherit'>
+          <AnchorLink href='#about' style={{
+            textDecoration: 'none',
+            color: 'inherit'
+          }}>
+            <Button>
+              ABOUT
+            </Button>
+          </AnchorLink>
+          <AnchorLink href='#skills' style={{
+            textDecoration: 'none',
+            color: 'inherit'
+          }}>
+            <Button color='inherit'>
+              SKILLS
+            </Button>
+          </AnchorLink>
+          <AnchorLink href='#works' style={{
+            textDecoration: 'none',
+            color: 'inherit'
+          }}>
+            <Button color='inherit'>
+              Works
+            </Button>
+          </AnchorLink>
+          <AnchorLink href='#contact' style={{
+            textDecoration: 'none',
+            color: 'inherit'
+          }}>
+            <Button color='inherit'>
             CONTACT
-          </Button>
-          <Button color='inherit'>
-            Member
-          </Button>
+            </Button>
+          </AnchorLink>
         </Toolbar>
       </AppBar>
     </>
