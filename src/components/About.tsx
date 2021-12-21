@@ -12,7 +12,7 @@ const About: React.FC = () => {
         </Box>
         <Box display='flex' justifyContent='center' p={1}>
           <Typography variant='body1' align='left'>
-            私の名前は石神勇貴です。<br />
+            私の名前はFogr1です。<br />
             好きな言語・フレームワークはLaravelです。
           </Typography>
         </Box>
